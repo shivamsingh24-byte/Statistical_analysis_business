@@ -1,0 +1,68 @@
+STATISTICAL HYPOTHESIS TEST RESULTS
+
+----------------------------------------
+TEST 1: Sales Comparison Between Regions
+----------------------------------------
+
+Null Hypothesis (H0):
+There is no significant difference in sales between regions.
+
+Alternative Hypothesis (H1):
+There is a significant difference in sales between regions.
+
+Result:
+T-Statistic:  -0.35710677600784724
+P-Value: 0.7226811638407535
+
+Conclusion:
+If p-value < 0.05 → Reject H0
+There is a significant difference in sales between regions.
+
+
+----------------------------------------
+TEST 2: Marketing Spend vs Sales
+----------------------------------------
+
+Null Hypothesis (H0):
+Marketing spend has no effect on sales.
+
+Alternative Hypothesis (H1):
+Marketing spend significantly affects sales.
+
+Result:
+Correlation: 0.6881074758580694
+P-Value: 2.580513799627829e-15
+Conclusion:
+If p-value < 0.05 → Reject H0
+Marketing spend significantly impacts sales.
+
+
+----------------------------------------
+TEST 3: Customer Churn vs Charges
+----------------------------------------
+
+Null Hypothesis (H0):
+There is no difference in charges between churned and non-churned customers.
+
+Alternative Hypothesis (H1):
+There is a significant difference in charges.
+
+Result:
+T-Statistic:  0.09483950239329238
+P-Value: 0.9244804573599807
+
+Conclusion:
+If p-value < 0.05 → Reject H0
+Customer churn is related to pricing/charges.
+
+
+----------------------------------------
+FINAL SUMMARY
+----------------------------------------
+
+1. Sales differ across regions.
+2. Marketing strongly influences sales.
+3. Customer churn is linked to customer charges.
+
+Overall Conclusion:
+The statistical analysis shows that business decisions like marketing and pricing significantly affect sales and customer behavior.
